@@ -1,0 +1,27 @@
+@import "../../../../styles/variables";
+
+.message-wrapper {
+  overflow-y: scroll;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.select-room {
+  .select-room-message {
+    width: 30%;
+    height: 5%;
+    margin-bottom: 10%;
+    border: 2px solid $gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+  }
+}
+
+.chatroom-window {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}

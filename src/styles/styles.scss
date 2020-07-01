@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'react-redux-toastr/src/styles/index';
+
+body {
+    color: $secondary;
+}
+
+.container-wrapper {
+    height: calc(100vh - 80px) !important;
+}
+
+.navbar {
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    &.btn {
+        border-radius: 0;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+@mixin scrollbar($width: 6px, $bg: transparent, $margin: 0, $thumbBorderRadius: 6px, $thumbBg: rgba(0, 0, 0, .3)) {
+    ::-webkit-scrollbar {
+        width: $width;
+        height: $width;
+        background: $bg;
+        margin: $margin;
+        cursor: pointer;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: $thumbBorderRadius;
+        background: $thumbBg;
+    }
+}
+
+@include scrollbar;
