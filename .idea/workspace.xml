@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3415611c-a4a5-4917-a869-08ad474f8f5a" name="Default Changelist" comment="developed react chat app">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -7,9 +31,164 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1e0J8kXPl25G3y9sLqisuxbpsT5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\chat-app\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react\chat-app\src\components\Spinner" />
+      <recent name="D:\react\chat-app\src\pages\Chat\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3415611c-a4a5-4917-a869-08ad474f8f5a" name="Default Changelist" comment="" />
+      <created>1593452419265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593452419265</updated>
+      <workItem from="1593452421307" duration="14867000" />
+      <workItem from="1593504060439" duration="41683000" />
+      <workItem from="1593593335824" duration="12907000" />
+      <workItem from="1593606986021" duration="17741000" />
+    </task>
+    <task id="LOCAL-00001" summary="developed react chat app">
+      <created>1593635828851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593635828851</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed usergrouping bug">
+      <created>1593642054381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593642054381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed">
+      <created>1593644000579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593644000579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-hasmetadata.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getmetadata.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-definemetadata.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-decorate.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getmetadata.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getownmetadatakeys.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getownmetadatakeys.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-hasownmetadata.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-metadata.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-definemetadata.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getownmetadata.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-hasownmetadata.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-deletemetadata.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getmetadatakeys.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-decorate.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-metadata.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-deletemetadata.js.map" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getmetadatakeys.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-hasmetadata.js" />
+        <option value="D:/Angular/Angular-Chat-App/node_modules/reflect-metadata/test/reflect-getownmetadata.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="developed react chat app" />
+    <MESSAGE value="fixed usergrouping bug" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/index.js</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
