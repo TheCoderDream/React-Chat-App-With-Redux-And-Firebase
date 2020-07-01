@@ -6,7 +6,7 @@ import {formatDate} from "../../../../utils/utils";
 const ChatMessage = ({messagesByUsers}) => {
     return (
         messagesByUsers && messagesByUsers.map(m => (
-                <div className="chat-message d-flex" key={m.sender.id}>
+                <div className="chat-message d-flex" >
                     <div className="image-wrapper">
                         <img src={m.sender.photoUrl} className=" rounded-circle" />
                     </div>
