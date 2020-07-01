@@ -58,16 +58,22 @@ function groupMessagesByUser(messages) {
             messageGroup.messages.push({
                 createdAt: currentMessage.createdAt,
                 message: currentMessage.message
-            })
+            });
+            if (i === messages.length -1 ) {
+                messageGroup.messages.reverse();
+                result.push(messageGroup);
+            }
         } else if (currentMessage.sender.id === prevMessage.sender.id ) {
             messageGroup.messages.push({
                 createdAt: currentMessage.createdAt,
                 message: currentMessage.message
             });
             if (i === messages.length -1 ) {
+                messageGroup.messages.reverse();
                 result.push(messageGroup);
             }
         } else {
+            messageGroup.messages.reverse();
             result.push(messageGroup);
             messageGroup = {sender: null, messages: []};
             messageGroup.sender = currentMessage.sender;
@@ -77,5 +83,7 @@ function groupMessagesByUser(messages) {
             });
         }
     }
+    console.log(result, messages);
+
     return result;
 }
