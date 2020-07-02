@@ -24,11 +24,9 @@ function App({setUser, history, removeUser,auth }) {
                  userRef.onSnapshot(snapShot => {
                      setUser({ id: snapShot.id, ...snapShot.data() });
                  });
-                 console.log('user logged in');
                  history.push('/');
             } else {
                  history.push('/login');
-                 console.log('user logged out');
                  removeUser();
              }
         });

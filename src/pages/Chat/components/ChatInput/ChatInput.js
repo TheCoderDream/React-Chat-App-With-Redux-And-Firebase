@@ -47,7 +47,6 @@ class ChatInput extends React.Component{
     };
 
     handleChange = (e) => {
-        console.log(e);
         this.setState({
                 ...this.state,
                 message: e.target.value
